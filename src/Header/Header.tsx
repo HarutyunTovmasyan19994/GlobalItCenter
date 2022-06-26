@@ -21,7 +21,10 @@ const Header:FC = () =>{
                         About Us
                     </li>
                     <li>
-                        Services
+                        <Link to="services" className="link">
+                            Services
+                        </Link>
+
                     </li>
                     <li>
                         <Link to="portfolio" className="link">

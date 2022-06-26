@@ -12,6 +12,10 @@ import Portfolio from "../Portfolio/portfolio";
 import ImgMan from '../IMG/imgMan.png'
 import ImgWoman from "../IMG/imgGirl.png"
 import ImgHappy from "../IMG/imgHappy.png"
+import ImgAbout from "../IMG/imgAbout.jpg"
+import WebDeveloper from '../IMG/imgWebdeveloper.png'
+import Mobile from '../IMG/imgMobile.png'
+import Desktop from '../IMG/imgDesctop.png'
 import './Home.css'
 
 const Home: FC = () => {
@@ -32,8 +36,6 @@ const Home: FC = () => {
                 </div>
                 <div className="right">
                     <img src={HomeOne} alt="HomeOne"/>
-                </div>
-                <div>
                 </div>
             </div>
             <div className="Developer">
@@ -196,6 +198,83 @@ const Home: FC = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="WeCreate">
+                <div className="imgAbout">
+                    <img src={ImgAbout} alt="About"/>
+                </div>
+                <div className="create">
+                        <p className="weCreate">
+                            We create unique<br/>
+                            experiences
+                        </p>
+                    <p className="weStart">
+                        We started as a small, subdue, called hath give fourth. Them
+                        one over saying. So the god, greater. You. Us air Moved divide
+                        midst us fifth sea.We help individuals, startups and established
+                        companies to build best Modern websites, enterprise web
+                        application, native mobile apps, custom marketplace and e-
+                        Commerce platform through agile full cycle, and full stack
+                        software product development operations.
+                    </p>
+                </div>
+            </div>
+
+            <div className="application">
+                <div className="applicationText">
+                    <p>
+                        Our Work
+                    </p>
+                    <div className="crazy"></div>
+                </div>
+
+                <div className="applicationWeb">
+                    <div className="applicationMWD">
+                        <div className="img">
+                            <img src={Mobile} alt="Mobile"/>
+                        </div>
+
+                            <p className="mobilApplicationText">
+                                Mobile Application
+                            </p>
+                            <p className="various">
+                                We Work with various mobile application
+                                platforms that include Hybrid(Flutter ,
+                                React-Native, IONIC), Native App
+                                Development.
+                            </p>
+                        </div>
+
+                    <div className="applicationMWD">
+                        <div className="img">
+                            <img src={WebDeveloper} alt="WebDeveloper"/>
+                        </div>
+                        <p className="mobilApplicationText">
+                            Website Development
+                        </p>
+                        <p className="various">
+                            We provide professional Web Design &
+                            Development and Website Maintenance
+                            Services to Our Clients Worldwide.
+                        </p>
+                    </div>
+                    <div className="applicationMWD">
+                        <div className="img">
+                            <img src={Desktop} alt="Desktop"/>
+                        </div>
+                        <p className="mobilApplicationText">
+                            Desktop Application
+                        </p>
+                        <p className="various">
+                            We Work with various mobile application
+                            platforms that include Hybrid(Flutter ,
+                            React-Native, IONIC), Native App
+                            Development.
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
