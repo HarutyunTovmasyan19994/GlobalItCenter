@@ -8,6 +8,7 @@ import {FaMoneyBillWave} from 'react-icons/fa'
 import {MdTimer} from 'react-icons/md'
 import WhatIMG from '../IMG/ImgWhat.jpg'
 import './Home.css'
+import Portfolio from "../Portfolio/portfolio";
 
 const Home: FC = () => {
     return (
@@ -94,6 +95,12 @@ const Home: FC = () => {
 
                     </p>
                 </div>
+            </div>
+            <div>
+                <Portfolio/>
+            </div>
+            <div className="effective">
+
             </div>
         </div>
     )

@@ -11,8 +11,8 @@ const Header:FC = () =>{
             </div>
             <div className="ul">
                 <ul>
-                    <li className="Home">
-                        <Link to="/" className="link">
+                    <li className="Home" style={{color: "#4F6DF5"}}>
+                        <Link to="/" className="link" style={{color: "#4F6DF5"}}>
                             Home
                         </Link>
 
@@ -24,7 +24,9 @@ const Header:FC = () =>{
                         Services
                     </li>
                     <li>
-                        Portfolio
+                        <Link to="portfolio" className="link">
+                            Portfolio
+                        </Link>
                     </li>
                     <li>
                         Contact Us

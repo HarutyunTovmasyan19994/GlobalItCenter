@@ -40,4 +40,8 @@
 }
 .link{
  text-decoration: none;
+    color: black;
+}
+.home{
+    color: #4F6DF5!important;
 }
