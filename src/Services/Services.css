@@ -1,3 +1,54 @@
-.services{
+.SERVICES{
     width: 100%;
+}
+.SERVICESOur {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SERVICESOText{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 63px;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+    margin-top: 100px;
+}
+.APP{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.APPm{
+    width: 33.333333%;
+    background: rgba(79, 109, 245, 0.06);
+    box-shadow: 0 4.141px 4.141px rgba(0, 0, 0, 0.25);
+    border-radius: 20.705px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 60px;
+}
+.APPweb{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UI{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 50px 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ai{
+    width: 100px;
+    height: 100px;
+    color: #4F6DF5;
 }
