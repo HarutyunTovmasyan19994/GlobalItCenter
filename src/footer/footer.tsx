@@ -82,7 +82,7 @@ const Footer: FC = () => {
                 <span className="icon">
                 <img src={Instagram} alt="inst" className="inst"/>
                 </span>
-                <span className="iconIn">
+                <span className="icon">
                     <img src={IN} alt="IN" className="inst"/>
                 </span>
                 <span className="icon">

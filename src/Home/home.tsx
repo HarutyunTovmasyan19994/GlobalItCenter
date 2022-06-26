@@ -7,8 +7,12 @@ import {GiTrophyCup} from 'react-icons/gi'
 import {FaMoneyBillWave} from 'react-icons/fa'
 import {MdTimer} from 'react-icons/md'
 import WhatIMG from '../IMG/ImgWhat.jpg'
-import './Home.css'
+import WhatPeople from '../IMG/imgWhat2.png'
 import Portfolio from "../Portfolio/portfolio";
+import ImgMan from '../IMG/imgMan.png'
+import ImgWoman from "../IMG/imgGirl.png"
+import ImgHappy from "../IMG/imgHappy.png"
+import './Home.css'
 
 const Home: FC = () => {
     return (
@@ -27,8 +31,7 @@ const Home: FC = () => {
                     </button>
                 </div>
                 <div className="right">
-                    <img src={HomeOne}
-                    />
+                    <img src={HomeOne} alt="HomeOne"/>
                 </div>
                 <div>
                 </div>
@@ -40,12 +43,12 @@ const Home: FC = () => {
                     </div>
                     <p className="mobilAppText">Mobile App Development</p>
                 </div>
-               <div>
-                   <div className="WebDeveloper">
-                    <MdComputer className="WebDeveloperIcon"/>
-                   </div>
-                   <p className="WebDeveloperText">Web Development</p>
-               </div>
+                <div>
+                    <div className="WebDeveloper">
+                        <MdComputer className="WebDeveloperIcon"/>
+                    </div>
+                    <p className="WebDeveloperText">Web Development</p>
+                </div>
                 <div>
                     <div className="UIUXDesign">
                         <GiFamilyHouse className="UIUXDesignIcon"/>
@@ -100,7 +103,99 @@ const Home: FC = () => {
                 <Portfolio/>
             </div>
             <div className="effective">
+                <div>
+                    <img src={WhatPeople} alt="WhatPeople" className="WhatPeople"/>
+                </div>
+                <div>
+                    <p className='GetSolid'>
+                        Get Solid & Effective<br/>
+                        Solutions
+                    </p>
+                    <p className="passionate">
+                        We are passionate about finding effective<br/>
+                        software solutions as per you and your customer<br/>
+                        requirements to perform across all devices
+                    </p>
+                    <div className="customer">
+                        <div>
+                            <div className="satisFaction">
+                                <p>
+                                    98%
+                                </p>
+                            </div>
+                            <p className="customerText">Customer satisfaction</p>
+                        </div>
+                        <div>
+                            <div className="work">
+                                <p>
+                                    95%
+                                </p>
+                            </div>
+                            <p className="customerText">work Efficiency</p>
+                        </div>
+                        <div>
+                            <div className="Transparency">
+                                <p>100%</p>
+                            </div>
+                            <p className="customerText"> Transparency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="ClientReviews">
+                <div className="ReviewsClient">
+                    <p className="ReviewsClientText">
+                        Client reviews
+                        <div className="crazy"></div>
+                    </p>
+                    <p className="proud">
+                        We are very proud of the service we provide and stand by every product<br/>
+                        we carry. Read our testimonials from our happy customers.
 
+                    </p>
+                </div>
+                <div className="peoples">
+                    <div className="States">
+                        <span>Tom Davis</span><br/>
+                        San Francisco, California
+                        <p className="ajay">
+                            Ajay is a great developer; very
+                            experienced and able to get the job done
+                            quickly! I am hiring him again for my next
+                            project.
+                        </p>
+                        <div className="imgPeopleMan">
+                            <img src={ImgMan} alt="Man"/>
+                        </div>
+                    </div>
+
+                    <div className="States">
+                        <span>Tom Davis</span><br/>
+                        San Francisco, California
+                        <p className="ajay">
+                            Ajay is a great developer; very
+                            experienced and able to get the job done
+                            quickly! I am hiring him again for my next
+                            project.
+                        </p>
+                        <div className="imgPeopleWoman">
+                            <img src={ImgWoman} alt="Woman"/>
+                        </div>
+                    </div>
+                    <div className="States">
+                        <span>Tom Davis</span><br/>
+                        San Francisco, California
+                        <p className="ajay">
+                            Ajay is a great developer; very
+                            experienced and able to get the job done
+                            quickly! I am hiring him again for my next
+                            project.
+                        </p>
+                        <div className="imgPeopleHappy">
+                            <img src={ImgHappy} alt="Happy"/>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
