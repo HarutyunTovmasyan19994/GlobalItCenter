@@ -125,6 +125,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1F1F1F;
+    overflow-x: hidden;
 }
 
 .copyText {
@@ -136,6 +137,7 @@
     text-align: center;
     color: #F0F0F0;
     margin-left: 50px;
+    overflow-x: hidden;
 }
 
 .privacy {
