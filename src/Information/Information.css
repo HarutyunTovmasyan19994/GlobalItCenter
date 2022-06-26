@@ -1,0 +1,22 @@
+.information{
+    width: 100%;
+    background: #4F6DF5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.informationText{
+    color: white;
+    margin: 15px;
+}
+.info{
+    margin:  0 15px;
+    padding: 5px 0;
+}
+.telephoneIcon{
+    margin-right: 8px;
+}
+.icon{
+    margin:  0 22px;
+    color: white;
+}

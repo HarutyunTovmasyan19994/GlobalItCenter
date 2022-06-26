@@ -1,0 +1,20 @@
+
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.welcome{
+    background: #F7F9FB;
+    mix-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right{
+    width: 934px;
+    height: 900px;
+}
+.right img{
+    max-width: 100%;
+}
