@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:&display=swap');
+.about{
+    width: 100%;
+}
+.aboutUs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutUsText{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 63px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.aboutOfninfo{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #828282;
+    margin-top:26px;
+    margin-bottom: 124px;
+}
+.small{
+    width: 100%;
+
+}
+.hath{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7F9FB
+}
+.imgAboutUs{
+    width: 49.9999%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7F9FB;
+    margin-right: 102px;
+}
+.imgAboutUs img{
+    max-width: 100%;
+    background-color: #F7F9FB;
+}
+.imgAboutUs1{
+    width: 49.9999%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7F9FB;
+    margin-left: 120px;
+}
+.imgAboutUs1 img{
+    max-width: 100%;
+    background-color: #F7F9FB;
+}
+.call{
+    width: 49.99999%;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    color: #828282;
+    margin-bottom: 51px;
+    margin-top:100px ;
+    margin-left: 163px;
+    margin-right: 142px;
+}
+.call1{
+    width: 49.99999%;
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    color: #828282;
+    margin-bottom: 99px;
+    margin-top:108px ;
+    margin-left: 108px;
+    margin-right: 102px;
+}

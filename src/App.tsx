@@ -6,6 +6,7 @@ import Footer from "./footer/footer";
 import Home from './Home/home'
 import Portfolio from "./Portfolio/portfolio";
 import Services from "./Services/Services";
+import About from "./About/about";
 import './App.css'
 
 const App: FC = () => {
@@ -17,6 +18,7 @@ const App: FC = () => {
                 <Route path="/" element={<Home/>}/>
                 <Route path="portfolio" element={<Portfolio/>}/>
                 <Route path="services" element={<Services/>}/>
+                <Route path="about" element={<About/>}/>
             </Routes>
             <Footer/>
         </div>
