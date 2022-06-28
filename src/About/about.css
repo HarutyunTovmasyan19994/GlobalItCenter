@@ -91,3 +91,99 @@
     margin-left: 108px;
     margin-right: 102px;
 }
+.managing{
+    width: 100%;
+}
+.managingDirectors{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.managingText{
+
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 63px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 100px;
+}
+.team{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 93px;
+}.team{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+.lambert{
+    width: 33.33333%;
+    margin-left: 58px;
+     background: #FFFFFF;
+     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.turner{
+    width: 33.33333%;
+    margin-left: 58px;
+     background: #FFFFFF;
+     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sutton{
+   width: 33.33333%;
+    margin-left: 58px;
+    margin-right: 50px;
+     background: #FFFFFF;
+     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.lambert img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.turner img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.sutton img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.lambertText{
+
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+.sales{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #828282;
+}
+.iconServer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 36px;
+    margin-right: 37px;
+}
+.iconServers{
+    color:#4F6DF5;
+    margin-left: 30px;
+}
